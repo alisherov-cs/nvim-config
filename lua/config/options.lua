@@ -1,0 +1,27 @@
+local v = vim.opt
+
+v.number = true
+v.relativenumber = true
+v.tabstop = 4
+v.softtabstop = 4
+v.shiftwidth = 4
+v.expandtab = true
+v.autoindent = true
+v.smartindent = true
+v.scrolloff = 8
+v.sidescrolloff = 8
+v.wrap = false
+v.ignorecase = true
+v.smartcase = true
+v.clipboard = "unnamedplus"
+v.splitbelow = true
+v.splitright = true
+v.backup = false
+v.writebackup = false
+v.swapfile = false
+v.updatetime = 300
+v.timeoutlen = 500
+v.completeopt = { "menuone", "noselect" }
+v.wildmenu = true
+v.wildmode = { "longest", "list", "full" }
+v.fileencoding = "utf-8"
