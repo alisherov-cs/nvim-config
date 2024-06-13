@@ -53,10 +53,6 @@ return packer.startup(function(use)
     use {
         "prettier/vim-prettier",
         run = "yarn install",
-        ft = {
-            'javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql',
-            'markdown', 'vue', 'lua', 'svelte', 'yaml', 'html'
-        }
     }
     use {
         'hrsh7th/nvim-cmp',
