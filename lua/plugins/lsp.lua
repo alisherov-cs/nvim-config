@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = { "clangd", "tsserver", "tailwindcss", "lua_ls", "svelte", "cssls", "somesass_ls", "dockerls", "docker_compose_language_service", "eslint", "graphql", "html", "jsonls", "prismals", "vuels", "rust_analyzer", "markdown_oxide" }
+    ensure_installed = { "asm_lsp", "clangd", "tsserver", "tailwindcss", "lua_ls", "svelte", "cssls", "somesass_ls", "dockerls", "docker_compose_language_service", "eslint", "graphql", "html", "jsonls", "prismals", "vuels", "rust_analyzer", "markdown_oxide" }
 })
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()

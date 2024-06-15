@@ -77,6 +77,7 @@ return packer.startup(function(use)
     use "windwp/nvim-ts-autotag"
     use "lewis6991/gitsigns.nvim"
     use "preservim/nerdcommenter"
+    use "akinsho/toggleterm.nvim"
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
