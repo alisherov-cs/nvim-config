@@ -10,3 +10,4 @@ this is my **neovim** text editor configuration written with **lua** language, i
 -   [**gitsigns**](https://github.com/lewis6991/gitsigns.nvim) (for git changes)
 -   [**prettier**](https://github.com/prettier/vim-prettier) (for formatting)
 -   [**mason**](https://github.com/williamboman/mason.nvim) (for plugin manager)
+-   [**toggleterm**](https://github.com/akinsho/toggleterm.nvim) (for terminal)
