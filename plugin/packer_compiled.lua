@@ -185,6 +185,11 @@ _G.packer_plugins = {
     path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["vim-closetag"] = {
+    loaded = true,
+    path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/vim-closetag",
+    url = "https://github.com/alvan/vim-closetag"
+  },
   ["vim-lua"] = {
     loaded = true,
     path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/vim-lua",

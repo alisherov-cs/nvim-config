@@ -79,6 +79,7 @@ return packer.startup(function(use)
     use "preservim/nerdcommenter"
     use "akinsho/toggleterm.nvim"
     use "mfussenegger/nvim-jdtls'"
+    use "alvan/vim-closetag"
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
