@@ -80,6 +80,7 @@ return packer.startup(function(use)
     use "akinsho/toggleterm.nvim"
     use "mfussenegger/nvim-jdtls'"
     use "alvan/vim-closetag"
+    use "Exafunction/codeium.vim"
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()

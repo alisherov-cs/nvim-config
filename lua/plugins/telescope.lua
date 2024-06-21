@@ -11,10 +11,10 @@ end
 require('telescope').setup {
   pickers = {
     find_files = {
-      file_ignore_patterns = {"node_modules/*", "dist/*", ".next/*"}
+      file_ignore_patterns = {"node_modules/*", "dist/*", ".next/*", "**/*.class"}
     },
     live_grep = {
-      file_ignore_patterns = {"node_modules/*", "dist/*", ".next/*"}
+      file_ignore_patterns = {"node_modules/*", "dist/*", ".next/*", "**/*.class"}
     },
   }
 }

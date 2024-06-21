@@ -4,6 +4,10 @@ require("mason-lspconfig").setup({
             "asm_lsp",
             "clangd",
             "jdtls",
+            "csharp_ls",
+            "omnisharp_mono",
+            "omnisharp",
+            "kotlin_language_server",
             "tsserver",
             "tailwindcss",
             "lua_ls",
@@ -78,6 +82,14 @@ require("lspconfig").jdtls.setup {
         buf_set_keymap('n', '<space>q', '<Cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
         buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
     end,
+}
+
+require("lspconfig").csharp_ls.setup {
+    capabilities = capabilities
+}
+
+require("lspconfig").kotlin_language_server.setup {
+    capabilities = capabilities
 }
 
 require("lspconfig").lua_ls.setup {
